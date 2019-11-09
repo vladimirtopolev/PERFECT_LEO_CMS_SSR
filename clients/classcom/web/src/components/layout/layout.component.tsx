@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Header from './elements/header.component';
+import Header from './elements/Header.component';
 import {Fragment} from 'react';
 import {useState} from 'react';
 
