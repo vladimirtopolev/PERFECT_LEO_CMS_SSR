@@ -1,4 +1,4 @@
-import * as React from 'React';
+import * as React from 'react';
 import * as styles from './Statistics.component.styles.css';
 import {useRef} from 'react';
 import StatisticItem from './StatisticItem.component';
