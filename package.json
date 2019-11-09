@@ -8,21 +8,19 @@
     "demo-dev:build:client": "cd ./clients/demo/web && webpack --mode development",
     "demo-dev:run:server": "nodemon ./build/server/index.js --watch ./build",
     "demo:dev": "npm-run-all --parallel demo-dev:build:server demo-dev:build:client demo-dev:run:server",
-
     "classcom-prod:build:server": "cd ./clients/classcom/server && webpack",
     "classcom-prod:build:client": "cd ./clients/classcom/web && webpack --mode production",
-
     "classcom-dev:build:server": "cd ./clients/classcom/server && webpack --watch ./src",
     "classcom-dev:build:client": "cd ./clients/classcom/web && webpack --mode development --watch ./src",
     "classcom-dev:run:server": "nodemon ./build/server/index.js --watch ./build",
     "classcom:dev": "npm-run-all --parallel classcom-dev:build:server classcom-dev:build:client classcom-dev:run:server",
-
     "build": "npm run classcom-prod:build:server && npm run classcom-prod:build:client"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.0",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.19.0",
     "bootstrap": "^4.3.1",
@@ -54,6 +52,7 @@
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
     "@types/bcrypt-nodejs": "0.0.30",
     "@types/classnames": "^2.2.9",
     "@types/express": "^4.17.2",
@@ -94,12 +93,12 @@
     "ts-loader": "^6.1.2",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.3",
-    "webpack-dev-server": "^3.8.1",
-    "webpack-node-externals": "^1.7.2",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.9",
     "webpack-dev-middleware": "^3.7.1",
-    "webpack-hot-middleware": "^2.25.0"
+    "webpack-dev-server": "^3.8.1",
+    "webpack-hot-middleware": "^2.25.0",
+    "webpack-node-externals": "^1.7.2"
   },
   "engines": {
     "node": "10.x"
