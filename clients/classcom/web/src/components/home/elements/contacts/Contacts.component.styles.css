@@ -1,0 +1,99 @@
+.Contacts {
+
+}
+
+
+.ContactsForm {
+  padding: 40px 0;
+  margin-bottom: 40px;
+}
+
+.ContactsForm__title {
+  text-transform: uppercase;
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.ContactsForm__input {
+  border: none;
+  border-bottom: 1px solid #efefef;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.ContactsForm__btn {
+  width: 100%;
+  border: 2px solid #002a8f;
+  text-transform: uppercase;
+  padding: 10px;
+  color: #002a8f;
+  margin-bottom: 60px;
+  font-size: 18px;
+}
+
+
+.ContactsInfo {
+  padding: 60px;
+  margin-top: -30px;
+  height: 100%;
+  margin-bottom: -30px;
+  margin-right: -800px;
+  padding-right: 800px;
+  background-image: url('../../../../../sources/map-bg.jpg');
+  background-size: cover;
+}
+
+.ContactsInfo__title {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #002a8f;
+  width: 300px;
+  padding: 10px 30px;
+  margin-left: -60px;
+  border-bottom: 3px solid #002a8f;
+}
+
+.ContactsInfo__container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ContactsInfo__content {
+
+}
+
+.ContactsGroup {
+  color: #002a8f;
+  margin-bottom: 30px;
+}
+
+
+.ContactsGroup__title {
+  font-size: 14px;
+}
+
+.ContactsGroup__item {
+  font-weight: bold;
+}
+
+
+@media (max-width: 767px){
+  .ContactsInfo {
+    padding: 60px;
+    margin-top: -30px;
+    height: 100%;
+    margin-bottom: -30px;
+    margin-right: -800px;
+    padding-right: 800px;
+    margin-left: -800px;
+    padding-left: 800px;
+    background-image: url('../../../../../sources/map-bg.jpg');
+    background-size: cover;
+  }
+}

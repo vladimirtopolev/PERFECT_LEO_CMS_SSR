@@ -1,0 +1,45 @@
+.iconButton{
+  border: 2px solid #00acac;
+  background: #00acac;
+  color: #fff;
+  padding: 5px;
+  display:inline-block;
+  margin-right:4px;
+  width:36px;
+  text-align: center;
+}
+.iconButton:before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+.iconButton:hover{
+  color: #00acac;
+  background: none;
+  text-decoration: none;
+}
+.iconButton:active,
+.iconButton:focus,
+.iconButton:focus{
+  outline: none;
+}
+
+.iconButton_warning{
+  border: 2px solid red;
+  background: red;
+}
+.iconButton_warning:hover{
+  color: red;
+}
+
+.iconButton_edit:before{
+  content: "\f304"
+}
+.iconButton_delete:before{
+  content: "\f2ed"
+}
+
+td .iconButton:last-child{
+  margin-right:0px;
+}
+
+

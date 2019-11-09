@@ -1,0 +1,31 @@
+.Paginator {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.Paginator__container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Paginator__item {
+
+}
+
+.Paginator__link {
+  padding: 5px 10px;
+  display: block;
+  background: #00acac;
+  color: #fff;
+  margin-right: 5px;
+  border: 2px solid #00acac;
+}
+
+.Paginator__link_active,
+.Paginator__link:hover {
+  color:  #00acac;
+  background: none;
+}

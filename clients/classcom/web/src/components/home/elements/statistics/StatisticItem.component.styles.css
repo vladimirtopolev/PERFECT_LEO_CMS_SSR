@@ -1,0 +1,33 @@
+.StatisticItem{
+  position: relative;
+  overflow: hidden;
+}
+
+.StatisticItem__container{
+  padding-left: 20px;
+}
+.StatisticItem__line{
+  position: absolute;
+  width: 8px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #fe0000;
+}
+
+.StatisticItem__measure{
+  font-size: 40px;
+  color: #ffff;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-weight: bold;
+}
+
+.StatisticItem__description{
+  font-size: 18px;
+  color: #ffff;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}

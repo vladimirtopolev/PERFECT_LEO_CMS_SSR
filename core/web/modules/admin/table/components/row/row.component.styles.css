@@ -1,0 +1,51 @@
+.Row {
+}
+
+.Row__backBtn {
+  background: none;
+  border: none;
+}
+
+.Row__backBtn:hover {
+  color: #00acac;
+}
+
+.Row__backBtn:focus,
+.Row__backBtn:visited,
+.Row__backBtn:active{
+  outline: none;
+}
+
+.Row__backBtn:before {
+  content: "\f0a8";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 7px;
+}
+
+.Row__container {
+  margin-top: 15px;
+  background: #ffffff;
+}
+
+.Row__toolbar{
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.Cell {
+  padding: 20px 15px 15px 15px;
+  border-bottom: 1px solid #efefef;
+  display: flex;
+}
+
+.Cell__title {
+  min-width: 200px;
+  margin-right: 5px;
+  line-height: 42px;
+}
+
+.Cell__value {
+  flex-grow: 1;
+}
+

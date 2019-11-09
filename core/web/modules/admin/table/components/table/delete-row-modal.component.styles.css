@@ -1,0 +1,17 @@
+/* MODAL */
+.Modal{}
+.Modal__title{
+  padding: 10px 15px;
+  background: #00acac;
+  color: #fff;
+}
+.Modal__title_warning{
+  background: red;
+}
+.Modal__content{
+  padding: 15px 15px;
+}
+.Modal__buttons{
+  text-align: right;
+  margin-top: 10px;
+}

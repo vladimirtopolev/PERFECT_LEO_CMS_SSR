@@ -1,0 +1,36 @@
+.List{
+    padding-top:15px;
+}
+
+.Item{
+    padding: 15px 0;
+    border-top:2px solid #00acac;
+    position: relative;
+}
+
+.Item__row{
+    display: flex;
+    border-bottom: 1px solid rgb(182, 194, 201);
+}
+
+.Item__row:first-child{
+    border-top: 1px solid rgb(182, 194, 201);
+}
+
+.Item__cellName{
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    border-right: 1px solid rgb(182, 194, 201);
+    padding: 10px;
+}
+.Item__cellValue{
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.Item__toolbar{
+    text-align: right;
+    padding: 10px;
+}

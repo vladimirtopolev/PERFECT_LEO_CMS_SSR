@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "outDir": "../build/server",
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "typeRoots": [
+      "../core/server/@types",
+      "../core/web/@types",
+      "../node_modules/@types"]
+  }
+}

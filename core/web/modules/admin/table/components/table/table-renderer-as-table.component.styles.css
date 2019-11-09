@@ -1,0 +1,27 @@
+.Table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.Table__actionColumn{
+    width: 97px;
+}
+
+.Table td, .Table th {
+    border: 1px solid rgb(182, 194, 201);
+    padding: 10px;
+}
+
+.Table th {
+    padding: 10px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.Table td {
+    color: #707478;
+}
+
+.Table tbody tr:nth-child(2n+1) {
+    background: #efefef;
+}

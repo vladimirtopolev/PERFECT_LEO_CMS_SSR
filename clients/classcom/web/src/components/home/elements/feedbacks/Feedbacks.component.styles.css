@@ -1,0 +1,54 @@
+.Feedbacks {
+  background: #555555;
+  margin-top: -60px;
+  padding: 60px 0;
+}
+
+.Feedbacks__title {
+  font-size: 40px;
+  padding-top: 40px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.Feedback {
+  margin-bottom: 30px;
+}
+
+.Feedback__title {
+  font-size: 24px;
+  color: #fff;
+  min-height: 72px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.Feedback__title:after {
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  content: '';
+  display: block;
+  height: 4px;
+  width: 55%;
+  background: red;
+}
+
+.Feedback__text {
+  font-size: 16px;
+  color: #fff;
+  padding-left: 45px;
+  position: relative;
+}
+
+.Feedback__text:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f10e";
+  font-size: 30px;
+  color: red;
+  position: absolute;
+  top: -5px;
+  left: 0;
+
+}

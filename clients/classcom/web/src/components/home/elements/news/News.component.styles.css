@@ -1,0 +1,16 @@
+.News{
+  position: relative;
+  padding: 60px 0;
+  overflow: hidden;
+}
+.News__bg{
+  width: 100%;
+  height: 200%;
+  background-image: url('../../../../../sources/news-bg.jpg');
+  background-size: cover;
+  position: absolute;
+}
+
+.News__container{
+  position: relative;
+}

@@ -1,0 +1,63 @@
+.TableManager {
+  width: 100%;
+  padding: 0 20px 20px 20px;
+  box-sizing: border-box;
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.TableManager__toolbar{
+  width: 100%;
+}
+
+.TableManager__table {
+  width: 100%;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.buttonGroup{
+  display: inline-flex;
+  border: 2px solid #00acac;
+}
+
+.buttonGroup__button{
+  margin:0;
+  background: #00acac;
+  color: #fff;
+  border:none;
+  padding: 5px 10px;
+  outline: none;
+}
+.buttonGroup__button_active,
+.buttonGroup__button:hover,
+.buttonGroup__button:visited,
+.buttonGroup__button:focus
+{
+  background: #fff;
+  color: #00acac;
+  outline: none;
+}
+
+.buttonGroup__button:hover{
+  background: rgba(0, 172, 172, 0.2);
+}
+
+.button{
+  margin:0 10px 0;
+  background: #00acac;
+  color: #fff;
+  border: 2px solid #00acac;
+  padding: 5px 10px;
+}
+.button:hover{
+  text-decoration: none;
+  color: #00acac;
+  background: #fff;
+}
+
+
+.button_active{
+  background: #fff;
+  color: #00acac;
+}
+

@@ -1,0 +1,95 @@
+.Slider {
+  width: 100%;
+  min-height: 100vh;
+  margin-top: -120px;
+  position: relative;
+}
+
+.Slider__container {
+  width: 100%;
+  min-height: 100vh;
+
+}
+
+.Slider__button {
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  border: none;
+  outline: 0;
+  color: #fff;
+  font-size: 24px;
+  background: red;
+  display: block;
+  padding: 20px 10px;
+  z-index: 1;
+}
+
+.Slider__next {
+  right: 0;
+}
+
+.Slider__prev {
+  left: 0;
+}
+
+.Slide {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Slide__textContainer {
+  font-size: 28px;
+  text-transform: uppercase;
+  max-width: 600px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  color: #002a8f;
+  font-weight: bold;
+  position: relative;
+}
+
+.Slide__line {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 15px;
+  height: 100%;
+  background: #fe0000;
+}
+
+.Slide__text {
+  padding-left: 30px;
+  position: relative;
+}
+
+
+.Patchcord {
+  position: absolute;
+  right: 100px;
+  top:-120px;
+}
+
+@media (max-width: 700px) {
+  .Slider__button {
+    display: none;
+  }
+
+  .Patchcord {
+    display: none;
+  }
+
+  .Slide__textContainer {
+    font-size: 18px;
+  }
+}
+@media (max-width: 900px){
+  .Patchcord {
+    display: none;
+  }
+}

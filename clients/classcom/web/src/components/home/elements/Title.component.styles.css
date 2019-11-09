@@ -1,0 +1,20 @@
+.Title{
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.Title__line{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  width: 10px;
+  display: block;
+  background: #fe0000;
+}
+
+.Title__text{
+  font-size: 40px;
+  position: relative;
+  margin-left: 20px;
+}

@@ -1,0 +1,36 @@
+.Button{
+  display: inline-block;
+  border: 2px solid #00acac;
+  background: #00acac;
+  color: #fff;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+
+.Button:hover{
+  text-decoration: none;
+  background: none;
+  color: #00acac;
+}
+
+.Button:disabled,
+.Button:hover:disabled{
+  background: #00acac;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.Button:focus,
+.Button:active,
+.Button:visited{
+  outline: none;
+}
+
+.Button_warning{
+  background: red;
+  border: 2px solid red;
+}
+.Button_warning:hover{
+  color: red;
+}
